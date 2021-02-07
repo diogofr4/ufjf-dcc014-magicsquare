@@ -26,5 +26,14 @@ namespace ConsoleApp1.Controller
 
             MenuController.PrintMagicSquare(report);
         }
+
+        /// <summary>
+        /// Ends the application, waiting for any user input.
+        /// </summary>
+        public void End()
+        {
+            Console.WriteLine("Pressione qualquer tecla para fechar...");
+            Console.ReadKey();
+        }
     }
 }

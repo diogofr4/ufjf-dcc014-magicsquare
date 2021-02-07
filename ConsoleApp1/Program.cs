@@ -11,6 +11,7 @@ namespace ConsoleApp1
         {
             var application = new ApplicationController();
             application.Start();
+            application.End();
         }
     }
 }
